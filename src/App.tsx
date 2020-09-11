@@ -1,5 +1,4 @@
 import React from "react";
-import "./styles.css";
 import { X, Bookmark, Share } from "react-feather";
 
 export default function App() {

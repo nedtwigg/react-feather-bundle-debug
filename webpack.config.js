@@ -5,7 +5,7 @@ module.exports = {
   mode: "production",
   plugins: [new BundleAnalyzerPlugin()],
   entry: {
-    app: ["./src/App.js"]
+    app: ["./src/App.tsx"]
   },
   output: { filename: "[name].bundle.js" },
   resolve: { extensions: [".ts", ".tsx", ".js"] },

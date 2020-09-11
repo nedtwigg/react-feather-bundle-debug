@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+      "downlevelIteration": true,
+      "resolveJsonModule": true,
+      "lib": ["es2019", "dom"],
+      "sourceMap": false,
+      "noImplicitAny": true,
+      "module": "commonjs",
+      "target": "es5",
+      "jsx": "react",
+      "strictNullChecks": true,
+      "noEmit": true,
+      "esModuleInterop": true,
+      "baseUrl": "src",
+      "paths": {
+        "*": ["scripts/types/*"]
+      }
+    },
+    "include": ["./src/**/*"],
+    "exclude": ["./node_modules/**"],
+    "awesomeTypescriptLoaderOptions": {
+      "useCache": true
+    }
+  }
+  
