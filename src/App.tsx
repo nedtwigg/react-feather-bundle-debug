@@ -1,7 +1,11 @@
 import React from "react";
 import { X, Bookmark, Share } from "react-feather";
+import isEqual from "lodash/isEqual";
 
 export default function App() {
+  if (isEqual('a', 'b')) {
+    console.log('nope');
+  }
   return (
     <div className="App">
       <h1>Hello CodeSandbox</h1>
