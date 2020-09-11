@@ -17,5 +17,8 @@ module.exports = {
         use: { loader: "awesome-typescript-loader" }
       }
     ]
+  },
+  optimization: {
+    concatenateModules: false
   }
 };
